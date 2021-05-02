@@ -1,11 +1,11 @@
 
 import './App.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Main from './Main';
+import Main from './Main/Main';
 import React from "react";
-import Nav from './Nav.js';
-import About from './About';
-import Contact from './Contact';
+import Nav from './Nav/Nav.js';
+import About from './About/About';//'../../Components/Image/Image'
+import Contact from './Contact/Contact';
 
 function App() {
   return (
