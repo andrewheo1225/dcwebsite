@@ -1,14 +1,17 @@
 .image1 {
-
-width: 100%;
-max-width: 50%;
-height: auto;
-margin: 10px 10px;
-transition: 0.5s ease;
-border: 2px lightblue;
-}
-.image1:hover{
-box-shadow: 0 0 0 10px #000000;
-transition: .5s ease;
+  width: 100%;
+  height:450px;
+  transition: 0.5s ease;
+  border: 2px lightblue;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .image1{
+       width:50%;
+    }
+    .image1:hover{
+        box-shadow: 0 0 0 10px rgba(190, 10, 10, 0.267);
+        transition: 0.5s ease;
+    }
+}
