@@ -1,24 +1,17 @@
-
-import './App.css';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Main from './Main/Main';
-import React from "react";
-import Nav from './Nav/Nav.js';
-import About from './About/About';
-import Contact from './Contact/Contact';
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-      <div className="App">
-        <Router>
-          <Nav/>
-          <Switch>
-            <Route path="/" exact component = {Main}/>
-            <Route path="/About" component = {About}/>
-            <Route path="/Contact" component = {Contact}/>
-          </Switch>
-        </Router>
-      </div>
+    <>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+      </Router>
+    </>
   );
 }
 
