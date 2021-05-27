@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +16,14 @@
   
   .home,
   .services,
-  .products,
+  .contact-us,
+  .business-hours,
+  .faq,
+  .gallery,
+  .trailer,
+  .about-us,
+  .terms-of-service,
+  .privacy-policy,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -15,7 +31,47 @@
     justify-content: center;
     font-size: 3rem;
   }
+  .terms-of-service{
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .about-us{
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
   
+  .gallery{
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .trailer{
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .faq{
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
   .services {
     background-image: url('./images/img-2.jpg');
     background-position: center;
@@ -25,7 +81,7 @@
     font-size: 100px;
   }
   
-  .products {
+  .business-hours {
     background-image: url('./images/img-1.jpg');
     background-position: center;
     background-size: fill;
@@ -34,7 +90,15 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .contact-us{
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .privacy-policy{
     background-image: url('./images/img-8.jpg');
     background-position: center;
     background-size: cover;
