@@ -1,6 +1,19 @@
-import React from 'react'
-import '../../App.css'
+import React from "react";
+import "../../App.css";
+import "./Trailer.css";
+import Footer from "../Footer"
+import ResponsiveEmbed from "react-responsive-embed";
 
-export default function Trailer(){
-    return <h1 className = 'trailer'> Trailer</h1>
+function Trailer() {
+  return (
+    <>
+      <ResponsiveEmbed
+        className="trailer"
+        src="https://www.youtube.com/embed/9nQQb8F7NGU"
+        allowFullScreen
+      />
+        <Footer/>
+    </>
+  );
 }
+export default Trailer;

@@ -37,7 +37,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               VIP Cleaners
-              <i class='fab fa-typo3' />
+              <i class='fab fa-black-tie' />
             </Link>
           </div>
         

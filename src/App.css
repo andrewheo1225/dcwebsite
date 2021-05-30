@@ -56,14 +56,14 @@ html,body
     color: #fff;
     font-size: 100px;
   }
-  .trailer{
+  /* .trailer{
     background-image: url('./images/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-  }
+  } */
   .faq{
     background-image: url('./images/img-2.jpg');
     background-position: center;
