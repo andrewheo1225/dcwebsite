@@ -1,8 +1,8 @@
 .bcontainer {
   display: grid;
-  height: 100vh;
+  height: 80vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.2fr 0.6fr 0.2fr;
+  grid-template-rows: 0.2fr 0.8fr 0.2fr;
   grid-template-areas:
     "bnav bnav"
     "bcontent1 bcontent2"
@@ -42,12 +42,55 @@
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
-
+ .bnav > h1{
+     
+     font-size: 50px;
+     margin-top: 15px;
+ }
+ .bcontent1 > table{
+     font-size: 30px;
+     /* margin-left: 2rem; */
+     line-height: 1.5;
+ }
+.center{
+    margin-left:auto; 
+    margin-right:auto;
+ }
+ ul{
+    text-align: center;
+    list-style-position: inside;
+ }
+ .bcontent2 > ul{
+     font-size: 25px;
+     margin-top: 1rem;
+     line-height: 2;
+ }
+.bfooter > h1{
+    font-size: 50px;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 696px) {
+    .bcontent1 > table{
+        font-size: 25px;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .bcontent1 > table{
+        font-size: 20px;
+        margin-top: 0.2rem;
+        line-height: 2;
+    }
+    .bcontent2 > ul{
+        margin-top: 0rem;
+    }
+}
 @media only screen and (max-width: 550px) {
   .bcontainer{
     /* grid-template-columns: 1fr; */
+    height:139vh;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 0.1fr 0.35fr 0.35fr 0.2fr;
+    grid-template-rows: 0.1fr 0.35fr 0.35fr 0.1fr;
     grid-template-areas:
       "bnav"
       "bcontent1"
