@@ -11,7 +11,7 @@ function HeroSection() {
       <video className="videoTag" autoPlay loop muted>
         <source src={sample} type="video/mp4" />
       </video>
-      <h1>Professional Cleaning Professional Care</h1>
+      <h1>Local Cleaning Professional Care</h1>
       <p>Free Delivery For Neighborhood Orders Over $20</p>
       <div className="hero-btns">
         <Button

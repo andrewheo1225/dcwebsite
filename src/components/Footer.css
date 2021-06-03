@@ -50,6 +50,7 @@
   max-width: 1000px;
   display: flex;
   justify-content: center;
+  margin-left: 100px;
 }
 
 .footer-link-wrapper {
@@ -136,10 +137,32 @@
   color: #fff;
   margin-bottom: 16px;
 }
-
+.phone-icon{
+ margin-left: 10px;
+}
+.address{
+  color:white;
+  
+}
+.location-icon{
+  margin-left: 6px;
+}
+.contact{
+  color:white;
+  margin-bottom: 10px;
+}
+.footer-logo{
+  margin-top: 10px;
+}
+.copyright-tag{
+  color:lightblue;
+  margin-left: 10px;
+  font-size:medium
+}
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;
+    margin-left: -10px;
   }
 
   .footer-input {

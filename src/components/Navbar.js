@@ -30,43 +30,35 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             VIP Cleaners
-            <i class="fab fa-black-tie" />
+            <i className = "icon" class="fab fa-black-tie" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
+              <Link to="/aboutus" className="nav-links" onClick={closeMobileMenu}>
+               About Us
+              </Link>
+            </li>
+            
+            <li className="nav-item">
               <Link to="/businesshours" className="nav-links" onClick={closeMobileMenu}>
                 Business Hours
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/services"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/faq" className="nav-links" onClick={closeMobileMenu}>
-                FAQ
               </Link>
             </li>
 
             <li>
               <Link
-                to="/contactus"
+                to=""
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Contact Us
+                Home
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Contact Us</Button>}
+          {button && <Button buttonStyle="btn--outline" value = "/">Home</Button>}
         </div>
       </nav>
     </>
