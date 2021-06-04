@@ -31,7 +31,8 @@ export default function AboutUs() {
           <ul className = "list">
             <li>Alteration</li>
             <li>Professional Tailoring</li>
-            <li>Same Day Service(In By 10 A.M. Out By 5 P.M.)</li>
+            <li>Same Day Service*</li>
+            <li>(In By 10 A.M. Out By 5 P.M.)</li>
             <li>Fur Coats </li>
             <li>Wedding Gown</li>
             <li>Household Items</li>
