@@ -19,9 +19,9 @@ function Footer() {
           <div class="footer-link-items">
             <h2>Quick Links</h2>
             <Link to="/aboutus">About Us</Link>
-            <Link to="/privacypolicy">Privacy Policy</Link>
-
-            <Link to="/termsofservice">Terms of Service</Link>
+           
+            <a href='https://www.termsfeed.com/live/04e251cb-a0f6-4ce5-bdf2-9af3d1a816a7'>Privacy Policy</a>
+            <a href='https://www.termsfeed.com/live/eb94bf11-ed51-4c8b-a878-15ba0ff074b4'>Terms & Conditions</a>
           </div>
           <div class="footer-link-items">
             <h2>Contact</h2>

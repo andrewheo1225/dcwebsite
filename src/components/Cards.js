@@ -1,7 +1,11 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
-
+import Wedding from '../images/wedding1.jpg';
+import HouseHold from '../images/household1.jpg';
+import Tailor from '../images/tailoring1.jpg';
+import SameDay from '../images/girl.jpg';
+import Shirt from '../images/shirt.jpg';
 
 function Cards() {
     return (
@@ -12,36 +16,36 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
-                        src = "images/img-9.jpg"
-                        text = "Explore the waterfalls deep inside the Amazon Jungle"
+                        src = {Wedding}
+                        text = "Formal and Wedding Gowns"
                         label = 'Adventure'
-                        path = '/services'
+                        path = '/'
                         />
                          <CardItem
-                        src = "images/img-2.jpg"
-                        text = "Travel through the islands of Bali"
+                        src = {HouseHold}
+                        text = "Household Cleaning"
                         label = 'Luxury'
-                        path = '/services'
+                        path = '/'
                         /> 
                     </ul>
                     <ul className="cards__items">
                         <CardItem
-                        src = "images/img-3.jpg"
-                        text = "Set sail in the Atlantic Ocean"
+                        src = {Tailor}
+                        text = "Alteration/Tailoring"
                         label = 'Mystery'
-                        path = '/services'
+                        path = '/'
                         />
                         <CardItem
-                        src = "images/img-4.jpg"
-                        text = "Experience Football on top of the Mountains"
+                        src = {SameDay}
+                        text = "Same Day Service*"
                         label = 'Adventure'
-                        path = '/products'
+                        path = '/'
                         />
                         <CardItem
-                        src = "images/img-8.jpg"
-                        text = "Ride through the Sahara Desert"
+                        src = {Shirt}
+                        text = "Dress Shirt Laundry"
                         label = 'Adrenaline'
-                        path = '/sign-up'
+                        path = '/'
                         />
                     </ul>
                 </div>

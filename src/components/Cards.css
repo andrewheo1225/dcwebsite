@@ -55,7 +55,7 @@
     animation-name: fade-img;
     animation-duration: 2s;
   }
-  
+/*   
   .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
@@ -68,7 +68,7 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
-  }
+  } */
   
   .cards__item__img {
     position: absolute;
@@ -83,6 +83,8 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+    background-size: 100% 100%;
+  background-repeat: no-repeat;
   }
   
   .cards__item__img:hover {
@@ -97,6 +99,7 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    padding-top: 10px;
   }
   .title{
     font-family:cursive;
