@@ -42,6 +42,7 @@
 .bnav > h1 {
   font-size: 50px;
   margin-top: 15px;
+  text-decoration: underline;
 }
 .bcontent1 > table {
   font-size: 30px;
@@ -58,6 +59,12 @@ ul {
   list-style-position: inside;
   list-style-type: none;
 }
+.bcontent1 > h1{
+    text-decoration: underline;
+}
+.bcontent2 > h1{
+    text-decoration: underline;
+}
 .bcontent2 > ul {
   font-size: 25px;
   margin-top: 2rem;
@@ -67,7 +74,7 @@ ul {
   font-size: 50px;
   margin-top: 2rem;
   margin-bottom: 50px;
-  
+  text-decoration: underline;
 }
 @media only screen and (max-width: 696px) {
   .bcontent1 > table {

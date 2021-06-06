@@ -71,7 +71,10 @@
 .footer-link-items h2 {
   margin-bottom: 16px;
 }
-
+.footer-link-items > h2{
+  text-decoration: underline;
+  
+}
 .footer-link-items > h2 {
   color: #fff;
 }
