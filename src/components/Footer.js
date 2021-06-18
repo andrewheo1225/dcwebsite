@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
+
 import { Link } from "react-router-dom";
 import { AiFillPhone } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
+
 
 function Footer() {
   return (
