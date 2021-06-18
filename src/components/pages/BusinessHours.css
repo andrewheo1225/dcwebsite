@@ -19,6 +19,7 @@
   grid-area: bnav;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
+  padding-bottom: 60px;
 }
 
 .bcontent1 {
@@ -37,7 +38,7 @@
   grid-area: bfooter;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
-  
+  margin-top: 40px;
 }
 .bnav > h1 {
   font-size: 50px;
@@ -59,11 +60,11 @@ ul {
   list-style-position: inside;
   list-style-type: none;
 }
-.bcontent1 > h1{
-    text-decoration: underline;
+.bcontent1 > h1 {
+  text-decoration: underline;
 }
-.bcontent2 > h1{
-    text-decoration: underline;
+.bcontent2 > h1 {
+  text-decoration: underline;
 }
 .bcontent2 > ul {
   font-size: 25px;
@@ -76,12 +77,41 @@ ul {
   margin-bottom: 50px;
   text-decoration: underline;
 }
+@media only screen and (max-width: 1920px) and (max-height: 1200px) {
+  .bcontainer {
+    min-height: 60vh;
+  }
+}
+@media only screen and (max-width: 1920px) and (max-height: 1080px) {
+  .bcontainer {
+    min-height: 60vh;
+  }
+}
+@media only screen and (max-width: 1681px) and (max-height: 1051px) {
+  .bcontainer {
+    min-height: 60vh;
+  }
+}
+@media only screen and (max-width: 1441px) and (max-height: 1024px) {
+  .bcontainer {
+    min-height: 60vh;
+  }
+}
+@media only screen and (max-width: 1367px) and (max-height: 1024px) {
+  .bcontainer {
+    min-height: 60vh;
+  }
+}
 @media only screen and (max-width: 696px) {
   .bcontent1 > table {
     font-size: 25px;
     margin-top: 2.5rem;
   }
-  .bcontent2 > ul {
+  .bnav {
+    padding-bottom: 60px;
+  }
+  .bfooter {
+    margin-top: 60px;
   }
 }
 @media only screen and (max-width: 581px) {
@@ -93,13 +123,17 @@ ul {
   .bcontent2 > ul {
     margin-top: 2rem;
   }
+  .bnav {
+    padding-bottom: 60px;
+  }
   .bfooter {
+    margin-top: 60px;
   }
 }
 @media only screen and (max-width: 550px) {
   .bcontainer {
     /* grid-template-columns: 1fr; */
-    height: 139vh;
+    min-height: 180vh;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 0.1fr 0.35fr 0.35fr 0.1fr;
     grid-template-areas:
@@ -117,6 +151,7 @@ ul {
     margin-top: 1rem;
     line-height: 2;
   }
+
   .bcontent2 > h1 {
     margin-top: 4rem;
   }
@@ -127,10 +162,24 @@ ul {
 
   .bfooter {
     margin-top: 30px;
+    margin-bottom: -500px;
   }
 }
 @media only screen and (max-width: 381px) {
+  .bcontainer {
+    min-height: 191vh;
+  }
   .bfooter {
-    margin-top: -10px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 321px) and (max-height: 533px) {
+  .bcontainer {
+    min-height: 220vh;
+  }
+}
+@media only screen and (max-width: 321px) and (max-height: 480px) {
+  .bcontainer {
+    min-height: 240vh;
   }
 }

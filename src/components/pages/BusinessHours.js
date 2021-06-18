@@ -19,23 +19,23 @@ export default function BusinessHours() {
             </tr>
             <tr>
               <th>Monday</th>
-              <th>8 A.M. - 8 P.M.</th>
+              <th>7 A.M. - 7 P.M.</th>
             </tr>
             <tr>
               <th>Tuesday</th>
-              <th>8 A.M. - 8 P.M.</th>
+              <th>7 A.M. - 7 P.M.</th>
             </tr>
             <tr>
               <th>Wednesday</th>
-              <th>8 A.M. - 8 P.M.</th>
+              <th>7 A.M. - 7 P.M.</th>
             </tr>
             <tr>
               <th>Thursday</th>
-              <th>8 A.M. - 8 P.M.</th>
+              <th>7 A.M. - 7 P.M.</th>
             </tr>
             <tr>
               <th>Friday</th>
-              <th>8 A.M. - 8 P.M.</th>
+              <th>7 A.M. - 7 P.M.</th>
             </tr>
             <tr>
               <th>Saturday</th>

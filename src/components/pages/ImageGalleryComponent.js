@@ -7,6 +7,10 @@ import ugg from '../../images/ugg.jpg'
 import front1 from '../../images/front1.jpg'
 import front2 from '../../images/front2.jpg'
 import card from '../../images/card.jpg'
+import one from '../../images/1.JPG'
+import two from '../../images/2.JPG'
+import three from '../../images/3.JPG'
+
 
 class ImageGalleryComponent extends React.Component {
     render() {
@@ -32,6 +36,18 @@ class ImageGalleryComponent extends React.Component {
                     </div>
                     <div>
                         <img src={card} alt = "ERROR" />
+               
+                    </div>
+                    <div>
+                        <img src={one} alt = "ERROR" />
+               
+                    </div>
+                    <div>
+                        <img src={two} alt = "ERROR" />
+               
+                    </div>
+                    <div>
+                        <img src={three} alt = "ERROR" />
                
                     </div>
                 </Carousel>

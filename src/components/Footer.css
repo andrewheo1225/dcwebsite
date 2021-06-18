@@ -27,6 +27,7 @@
 .footer-subscription-heading {
   margin-bottom: 15px;
   font-size: 24px;
+  margin-left: 80px;
 }
 
 .footer-subscription-text {
@@ -187,7 +188,7 @@
     flex-direction: column;
    
   }
-}
-
-@media screen and (max-width: 768px) {
+  .footer-subscription-heading {
+    margin-left: 10px;
+  }
 }
