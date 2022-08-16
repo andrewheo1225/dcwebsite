@@ -31,7 +31,7 @@ function Footer() {
             </p2>
 
             <p2 className="address">
-              803 West 187th Street NY, NY
+            605 Fort Washington Ave, New York, NY 
               <GoLocation className="location-icon" />
             </p2>
           </div>
